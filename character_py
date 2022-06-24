@@ -1,0 +1,14 @@
+#reverse a string "I am AkiraChix"   without using an inbuild functions using parlindrome two pointer funcrton
+
+x = "I am Akirachix"
+start = 0
+end = len(x)-1
+while start <= end:
+    if x[start] != x[end]:
+        print("false")
+    else:
+        start+=1
+        end-=1
+        print("true")
+        
+        
